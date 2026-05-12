@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mobile-friendly, SEO-optimized web sites and powerful Django backend solutions at affordable prices.">
+    <meta name="keywords" content="freelance web developer, web design, django backend, seo optimized website, python developer, software expert">
+    <meta name="author" content="57byte">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.acoderion.com/index-en.html"> <!-- Gerçek domain adresinizle değiştirin -->
+    
+    <title>Freelance Web Developer | Modern & Fast Web Solutions</title>
+
+    <!-- Favicon (Browser Tab Icon) -->
+    <link rel="icon" href="index-pics/acoderion.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="index-pics/acoderion.svg">
+
+    <!-- Open Graph / Sosyal Medya Paylaşım Etiketleri -->
+    <meta property="og:title" content="Freelance Web Developer | Modern & Fast Web Solutions">
+    <meta property="og:description" content="We build modern web platforms that reflect your corporate identity, offering high performance, SEO compatibility, and an unparalleled user experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.acoderion.com/index-en.html">
+    <meta property="og:image" content="https://www.acoderion.com/hero-pics/hero1.jpg">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome (İkonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="about-us.css">
+
+    <style>
+        /* Tasarımı biraz daha şıklaştırmak için ufak dokunuşlar */
+        :root {
+            --primary-dark: #1b263b; /* Koyu, şık lacivert */
+            --accent: #415a77; /* Tamamlayıcı renk */
+        }
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px; /* Sabit menünün (navbar) başlıkları kapatmasını engeller */
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center text-white" href="#">
+                <img src="index-pics/acoderion.svg" alt="Acoderion Logo" height="101" class="me-2">
+                <span class="fs-4">coderion</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#ozellikler">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hakkimda">About</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0"><a class="btn btn-custom rounded-pill px-4 shadow-sm" href="#iletisim">Contact</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0 d-flex flex-row align-items-center">
+                        <a href="index.html" class="nav-link px-1">TR</a>
+                        <span class="text-white-50 mx-1">|</span>
+                        <a href="index-en.html" class="nav-link px-1 fw-bold">EN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Bölümü -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <h1 class="display-4 fw-bold mb-4">Take Your Business to the Digital Peak</h1>
+                    <p class="lead mb-5">We build modern web platforms that reflect your corporate identity, offering high performance, SEO compatibility, and an unparalleled user experience. Stay one step ahead of your competitors.</p>
+                    <a href="#iletisim" class="btn btn-custom btn-lg rounded-pill px-5 shadow-sm">Get Free Consultation</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div id="heroCarousel" class="carousel slide carousel-fade rounded-4 shadow-lg overflow-hidden" data-bs-ride="carousel" data-bs-interval="4000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="hero-pics/hero1.jpg" class="d-block w-100" alt="Corporate Web Development">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="hero-pics/hero2.jpg" class="d-block w-100" alt="Modern Design">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="hero-pics/hero4.jpg" class="d-block w-100" alt="Strong Infrastructure">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hizmetler / Özellikler Bölümü -->
+    <section id="ozellikler" class="py-5 bg-light">
+        <div class="container py-4">
+            <h2 class="text-center fw-bold mb-5">What Do I Offer?</h2>
+            <div class="row g-4 text-center">
+                
+                <!-- Özellik 1 -->
+                <div class="col-md-6 col-lg-3 fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="card h-100 p-4">
+                        <i class="fa-solid fa-mobile-screen-button service-icon"></i>
+                        <h3 class="h4 fw-bold">Flawless Mobile Experience</h3>
+                        <p class="text-muted">We provide a smooth experience with adaptive and fluid designs that work perfectly on smartphones, tablets, and all desktop screens.</p>
+                    </div>
+                </div>
+                
+                <!-- Özellik 2 -->
+                <div class="col-md-6 col-lg-3 fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="card h-100 p-4">
+                        <i class="fa-solid fa-magnifying-glass-chart service-icon"></i>
+                        <h3 class="h4 fw-bold">Advanced SEO Infrastructure</h3>
+                        <p class="text-muted">Ensure continuous and permanent growth in organic traffic with technical infrastructure that speaks the language of search engines, not just visually.</p>
+                    </div>
+                </div>
+
+                <!-- Özellik 3 -->
+                <div class="col-md-6 col-lg-3 fade-in-up" style="transition-delay: 0.3s;">
+                    <div class="card h-100 p-4">
+                        <i class="fa-brands fa-python service-icon"></i>
+                        <h3 class="h4 fw-bold">Strong & Secure Architecture</h3>
+                        <p class="text-muted">Systems designed with Python and Django architecture, offering unshakeable stability and top-level cybersecurity even during high traffic moments.</p>
+                    </div>
+                </div>
+
+                <!-- Özellik 4 -->
+                <div class="col-md-6 col-lg-3 fade-in-up" style="transition-delay: 0.4s;">
+                    <div class="card h-100 p-4">
+                        <i class="fa-solid fa-handshake service-icon"></i>
+                        <h3 class="h4 fw-bold">One-on-One Transparent Communication</h3>
+                        <p class="text-muted">You communicate directly with me at every stage of the project. I listen to your needs and we carry out the process completely transparently and flexibly together.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="hakkimda" class="py-5">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-md-5 text-center mb-4 mb-md-0">
+                    <img src="index-pics/hakkimda-resmi.png" alt="About Me" class="img-fluid rounded-circle shadow-lg border border-4 border-white" style="width: 350px; height: 350px; object-fit: cover;">
+                </div>
+                <div class="col-md-7 text-center text-md-start">
+                    <h2 class="fw-bold mb-3">Hello!</h2>
+                    <p class="text-muted lead">I am a <strong>Freelance Web Developer</strong> who has made it a passion to constantly improve myself in the world of web technologies.</p>
+                    <p class="text-muted mb-4">I see every new project as both a learning opportunity to take myself one step further technically and an excitement to turn your ideas into reality. By closely following modern technologies, I focus on providing innovative, fast solutions that perfectly fit your needs. Let's build your dream project together!</p>
+                    <a href="#iletisim" class="btn btn-outline-dark rounded-pill px-4"><span>Let's Talk</span> <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Formu -->
+    <section id="iletisim" class="py-5">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Let's Start the Project</h2>
+                        <p class="text-muted">Tell us about the details of your project by filling out the form below. Let's determine the right digital strategy for your business together.</p>
+                    </div>
+                    
+                    <div class="card p-4 p-md-5">
+                        <form id="contact-form">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6 mt-3 mt-md-0">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="mail@example.com" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Project Details / Your Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me about your dream project..." required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-custom btn-lg rounded-pill">Send Message</button>
+                            </div>
+                            <p id="status-text" class="mt-3 mb-0 text-center fw-bold" style="display: none;"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+                <!-- Marka & Bilgi -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h3 class="h4 fw-bold mb-2">Acoderion</h3>
+                    <p class="text-white-50 small mb-0">Move your business to digital with modern, fast and SEO friendly web solutions.</p>
+                </div>
+                <!-- İletişim Bilgileri -->
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h3 class="h5 fw-bold mb-3">Contact</h3>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <i class="fa-brands fa-whatsapp me-2 text-white-50"></i>
+                            <a href="https://wa.me/905514969046" target="_blank" class="link-light text-decoration-none">+90 551 496 90 46</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope me-2 text-white-50"></i>
+                            <a href="mailto:acoderion@acoderion.com" class="link-light text-decoration-none">acoderion@acoderion.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sosyal Medya -->
+                <div class="col-md-4 text-center text-md-end">
+                    <h3 class="h5 fw-bold mb-3">Follow Us</h3>
+                    <a href="https://www.instagram.com/acoderion/" class="link-light me-3 fs-4" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61589657128790" class="link-light me-3 fs-4" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/57byte" class="link-light fs-4" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <hr class="border-secondary mt-4 mb-3">
+            <div class="text-center">
+                <p class="mb-0 text-white-50 small">&copy; 2026 Acoderion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- EmailJS Kütüphanesi -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
